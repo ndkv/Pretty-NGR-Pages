@@ -282,7 +282,7 @@ fieldset.x-panel-collapsed .x-fieldset-bwrap{visibility:hidden;position:absolute
 .x-btn-icon .x-btn-medium .x-btn-text{height:24px;width:24px;}
 .x-btn-icon .x-btn-large .x-btn-text{height:32px;width:32px;}
 .x-btn-text-icon .x-btn-icon-small-left .x-btn-text{background-position:0 center;background-repeat:no-repeat;padding-left:30px;height:16px;}
-.x-btn-text-icon .x-btn-icon-medium-left .x-btn-text{background-position:0 center;background-repeat:no-repeat;padding-left:26px;height:24px;}
+.x-btn-text-icon .x-btn-icon-medium-left .x-btn-text{background-position:0 center;background-repeat:no-repeat;padding-left:35px;height:24px;color:gray;text-decoration:underline;}
 .x-btn-text-icon .x-btn-icon-large-left .x-btn-text{background-position:0 center;background-repeat:no-repeat;padding-left:34px;height:32px;}
 .x-btn-text-icon .x-btn-icon-small-top .x-btn-text{background-position:center 0;background-repeat:no-repeat;padding-top:18px;}
 .x-btn-text-icon .x-btn-icon-medium-top .x-btn-text{background-position:center 0;background-repeat:no-repeat;padding-top:26px;}

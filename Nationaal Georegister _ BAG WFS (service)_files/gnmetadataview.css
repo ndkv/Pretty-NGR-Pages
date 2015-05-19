@@ -178,7 +178,7 @@ div.showBigMapItemInactive:hover{background:url("../images/sprites/sprite_resize
 #metadata-info fieldset .gn{clear:both;}
 #metadata-info .gn .main{background-color:#fff;color:#333;}
 #metadata-info .gn .el{color:#999;padding:0 0 4px 0;line-height:1.4em;}
-#metadata-info .gn th,#metadata-info .gn td{border-top:0;padding:5px 0 5px 5px;}
+#metadata-info .gn th,#metadata-info .gn td{border-top:0;padding:0px 0 0px px;}
 #metadata-info .gn td td th,#metadata-info .gn td td td{border-bottom:0;}
 #metadata-info .col{padding:15px;background:#F7F7F7;}
 #metadata-info .col .gn th,#metadata-info .col .gn td{border-top:1px solid #e5e5e5;}
@@ -189,7 +189,7 @@ div.showBigMapItemInactive:hover{background:url("../images/sprites/sprite_resize
 #metadata-info .related td{border:0;}
 #metadata-info .related{border-bottom:1px solid #e5e5e5;}
 #metadata-info .related ul{margin:0 0 10px 0;padding:0 0 10px 0;}
-#metadata-info .related li{width:auto;margin:0 5px 5px 0;padding:4px;color:#565B5E;}
+#metadata-info .related li{width:auto;margin:0 5px 5px 0;padding:4px;padding-left: 0px;color:#565B5E;}
 #metadata-info .related li a{text-decoration:none;}
 #metadata-info .related li.relatedResource a{/* margin-left:22px; */background-color:#FEEDDD;padding:1px;}
 #metadata-info .related li a:hover{color:#333;}
