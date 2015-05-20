@@ -6,8 +6,33 @@
 
 h3.service-url {
 	font-size: 14px !important;
+	margin-bottom: 100px;
+	margin-top: -5px;
+	color: rgb(128, 128, 128) !important;
 }
 
 .x-btn-text {
 	color: blue;
 }
+
+.documentation-content {
+	position: absolute;
+	position: relative;
+	top: 34px;
+	left: -95px;
+	margin-bottom: 30px;
+}
+
+.service-url {
+	margin-bottom: 20px;
+	font-size: 14px !important;
+}
+
+.documentation {
+	font-size: 13px !important;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
