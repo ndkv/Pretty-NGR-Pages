@@ -27,6 +27,15 @@ h3.service-url {
 .service-url {
 	margin-bottom: 20px;
 	font-size: 14px !important;
+	display: block;
+}
+
+.service-url > input {
+	width: 100%;
+	min-width: 400px;
+	max-width: 450px;
+	float: none;
+	padding: 3px;
 }
 
 .documentation {
