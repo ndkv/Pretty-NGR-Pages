@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	ZeroClipboard.config( { swfPath: "./Nationaal Georegister _ BAG WFS (service)_files/ZeroClipboard.swf" } );
+	ZeroClipboard.config( { swfPath: "./files/ZeroClipboard.swf" } );
 	var client = new ZeroClipboard( document.getElementById("copy-button") );
 
 	client.on( "ready", function( readyEvent ) {
