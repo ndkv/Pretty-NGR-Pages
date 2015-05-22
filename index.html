@@ -38,6 +38,8 @@
     <!-- <link rel="stylesheet" href="http://nationaalgeoregister.nl/geonetwork/apps/ngr2/css/gnmetadataview.css"> -->
         <link rel="stylesheet" type="text/css" href="./Nationaal Georegister _ BAG WFS (service)_files/custom.css">
     <script type="text/javascript" src="./Nationaal Georegister _ BAG WFS (service)_files/ext-base.js"></script><script type="text/javascript" src="./Nationaal Georegister _ BAG WFS (service)_files/ext-all-debug.js"></script><script type="text/javascript" src="./Nationaal Georegister _ BAG WFS (service)_files/modernizr-2.6.1-respond-1.1.0.min.js"></script><script type="text/javascript" src="./Nationaal Georegister _ BAG WFS (service)_files/ext-lang-nl.js"></script>
+
+
     <meta name="subject" content="De gegevens bestaan uit BAG-panden en een deelselectie van BAG-gegevens van deze panden en de zich daarin bevindende verblijfsobjecten. Ook de ligplaatsen en standplaatsen zijn hierin opgenomen met een deelselectie van BAG-gegevens. De gegevens van de nummeraanduiding zijn in deze services onderdeel van de adresseerbare objecten, hierbij wordt slechts 1 adres opgenomen, dus objecten met meerdere adressen (hoofd- en nevenadressen) zijn niet compleet. In deze services zitten dus niet alle BAG adressen. Wij adviseren u, aangezien er sprake is van beperkte gegevens, om in de webservice BAG Bevragen de actuele gegevens te controleren. Dit kan ook in een van de andere BAG producten: BAG Web, BAG Extract of BAG Compact. BAG Bevragen: http://www.kadaster.nl/web/artikel/productartikel/BAG-Bevragen.htm Andere BAG producten: http://www.kadaster.nl/web/Themas/Registraties/BAG/BAGartikelen/BAG-producten.htm De service wordt dagelijks geactualiseerd.">
     <meta name="keywords" content="Gebouwen">
     <meta name="keywords" content="BAG">
@@ -1697,7 +1699,10 @@
                                             <td class="main title">
                                               <span id="ext-gen560">Web Feature Service API</span>
                                               <div class="documentation-content">
-                                                <div class="service-url"><input readonly value="http://geodata.nationaalgeoregister.nl/bag/wfs" onClick="this.select()"></input></div>
+                                                <div class="service-url">
+                                                  <input readonly value="http://geodata.nationaalgeoregister.nl/bag/wfs" onClick="this.select()"></input>
+                                                  <button id="copy-button" data-clipboard-text="http://geodata.nationaalgeoregister.nl/bag/wfs" title="">Kopieer naar klembord</button>
+                                                </div>
 
                                                 <div class="documentation">Gebruik deze URL om onderstaande lagen op te nemen in uw desktop GIS applicatie, Leaflet/OpenLayers web app, etc. Zie de API <a href="http://pdok-ngr.rtfd.org" target="_blank">documentatie</a> voor meer informatie, handleidingen en voorbeelden. </div>
                                               </div>
@@ -2397,6 +2402,11 @@
 
         <p>De originele pagina staat <a href="http://www.nationaalgeoregister.nl/geonetwork/srv/dut/search#%7C1c0dcc64-91aa-4d44-a9e3-54355556f5e7">hier</a>.</p>
     </div>
+  
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="./Nationaal Georegister _ BAG WFS (service)_files/ZeroClipboard.js"></script>
+    <script type="text/javascript" src="./Nationaal Georegister _ BAG WFS (service)_files/custom.js"></script>
   </body>
 </html>
 
